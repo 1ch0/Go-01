@@ -1,0 +1,4 @@
+github.com/1ch0/Go-01 v0.0.0-20210425090736-8adab841aa5b h1:m+Rl+3tSxpyCltEPtjryCbOttaj+ZzMvdLGJwWN5QH8=
+github.com/go-sql-driver/mysql v1.5.0/go.mod h1:DCzpHaOWr8IXmIStZouvnhqoel9Qv2LBy8hT2VhHyBg=
+github.com/pkg/errors v0.9.1 h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=
+github.com/pkg/errors v0.9.1/go.mod h1:bwawxfHBFNV+L2hUp1rHADufV3IMtnDRdf1r5NINEl0=

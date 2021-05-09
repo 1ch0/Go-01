@@ -4,7 +4,7 @@ import (
 	"context"
 	"database/sql"
 
-	"github.com/1ch0/Go-01/Week02/model"
+	"github.com/1ch0/Go-01/model"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/pkg/errors"
 )
