@@ -15,8 +15,8 @@
 自己不太懂，看的别人的代码
 fix length
 #### client
-'''
 
+```go
 func client_tcp_fix_length(conn net.Conn) {
 	sendByte := make([]byte, 1024)
 	sendMsg := "{\"test01\":1,\"test02\",2}"
@@ -33,13 +33,13 @@ func client_tcp_fix_length(conn net.Conn) {
 		fmt.Println("send over once")
 	}
 }
+```
 
-'''
+
 
 #### server
 
-'''
-
+```go
 func server_tcp_fix_length(conn net.Conn) {
 	fmt.Println("server, fix length")
 	const (
@@ -52,9 +52,8 @@ func server_tcp_fix_length(conn net.Conn) {
 			fmt.Println(err)
 			return
 		}
-		
 		fmt.Println("client data :", string(buf))
 	}
 }
+```
 
-'''
