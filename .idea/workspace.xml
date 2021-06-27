@@ -20,13 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="01931267-cf69-4537-acf9-3d206b291a8c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Week03/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Week03/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Go-01.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Go-01.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week01/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week01/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week02/dao/article.go" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/dao/article.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Week02/model/article.go" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/model/article.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week02/service/article.go" beforeDir="false" afterPath="$PROJECT_DIR$/Week02/service/article.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Week03/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week03/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week04/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week04/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week05/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week05/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Week06/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Week06/README.md" afterDir="false" />
@@ -74,7 +80,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Week03" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../示例" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -115,6 +121,27 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-1545" y="-46" key="FileChooserDialogImpl" timestamp="1624187928348">
+      <screen x="-2560" y="-254" width="1707" height="920" />
+    </state>
+    <state x="-1545" y="-46" key="FileChooserDialogImpl/0.0.1536.824/-2560.-254.1707.920@-2560.-254.1707.920" timestamp="1624187928348" />
+    <state x="1015" y="208" key="FileChooserDialogImpl/0.0.1707.920@0.0.1707.920" timestamp="1623374501786" />
+    <state width="893" height="237" key="GridCell.Tab.0.bottom" timestamp="1620552995015">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="893" height="237" key="GridCell.Tab.0.bottom/0.0.1707.920@0.0.1707.920" timestamp="1620552995015" />
+    <state width="893" height="237" key="GridCell.Tab.0.center" timestamp="1620552995014">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="893" height="237" key="GridCell.Tab.0.center/0.0.1707.920@0.0.1707.920" timestamp="1620552995014" />
+    <state width="893" height="237" key="GridCell.Tab.0.left" timestamp="1620552995014">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="893" height="237" key="GridCell.Tab.0.left/0.0.1707.920@0.0.1707.920" timestamp="1620552995014" />
+    <state width="893" height="237" key="GridCell.Tab.0.right" timestamp="1620552995014">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state width="893" height="237" key="GridCell.Tab.0.right/0.0.1707.920@0.0.1707.920" timestamp="1620552995014" />
     <state x="966" y="40" width="601" height="879" key="find.popup" timestamp="1619342070839">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
