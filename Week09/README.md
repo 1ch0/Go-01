@@ -16,8 +16,8 @@
 fix length
 #### client
 '''
-func client_tcp_fix_length(conn net.Conn) {
 
+func client_tcp_fix_length(conn net.Conn) {
 	sendByte := make([]byte, 1024)
 	sendMsg := "{\"test01\":1,\"test02\",2}"
 	for i := 0; i < 1000; i++ {
@@ -33,17 +33,18 @@ func client_tcp_fix_length(conn net.Conn) {
 		fmt.Println("send over once")
 	}
 }
+
 '''
 
 #### server
 
 '''
+
 func server_tcp_fix_length(conn net.Conn) {
 	fmt.Println("server, fix length")
 	const (
 		BYTE_LENGTH = 1024
 	)
-
 	for {
 		var buf = make([]byte, BYTE_LENGTH)
 		_, err := conn.Read(buf)
@@ -51,8 +52,9 @@ func server_tcp_fix_length(conn net.Conn) {
 			fmt.Println(err)
 			return
 		}
-
+		
 		fmt.Println("client data :", string(buf))
 	}
 }
+
 '''
