@@ -12,3 +12,47 @@
 包使用固定长度内容加变长内容组成，包长灵活。
 
 ### 2. 解答
+自己不太懂，看的别人的代码
+fix length
+#### client
+'
+func client_tcp_fix_length(conn net.Conn) {
+
+	sendByte := make([]byte, 1024)
+	sendMsg := "{\"test01\":1,\"test02\",2}"
+	for i := 0; i < 1000; i++ {
+		tempByte := []byte(sendMsg)
+		for j := 0; j < len(tempByte) && j < 1024; j++ {
+			sendByte[j] = tempByte[j]
+		}
+		_, err := conn.Write(sendByte)
+		if err != nil {
+			fmt.Println(err, ",err index=", i)
+			return
+		}
+		fmt.Println("send over once")
+	}
+}
+'
+
+#### server
+
+'
+func server_tcp_fix_length(conn net.Conn) {
+	fmt.Println("server, fix length")
+	const (
+		BYTE_LENGTH = 1024
+	)
+
+	for {
+		var buf = make([]byte, BYTE_LENGTH)
+		_, err := conn.Read(buf)
+		if err != nil {
+			fmt.Println(err)
+			return
+		}
+
+		fmt.Println("client data :", string(buf))
+	}
+}
+'
